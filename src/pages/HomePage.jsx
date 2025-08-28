@@ -45,7 +45,7 @@ export default function HomePage() {
             <Link to={`/quizpage/${cat.text}`} key={cat.id}>
               <div
                 key={cat.id}
-                className="border-2 border-black m-10 p-10 text-center text-3xl font-semibold hover:bg-slate-300 cursor-pointer rounded-md">
+                className="border-2 border-black text-white m-10 p-10 text-center text-3xl font-semibold bg-slate-900 shadow-2xl hover:bg-slate-300 hover:text-black cursor-pointer rounded-md">
                 <h1>{cat.title}</h1>
               </div>
             </Link>
